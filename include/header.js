@@ -28,11 +28,7 @@ module.exports = {
                            <li><a href="../category/news">News</a></li>
                        </ul>
                    </nav>
-                   <nav class="tnb">
-                       <ul>
-                           <li><a href="../category/sponser"><i class="fa fa-handshake-o" aria-hidden="true"></i>BeTheLight 후원하기</a></li>
-                       </ul>
-                   </nav>
+                  
                </div>
            </header>
              </div></style>`

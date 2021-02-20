@@ -66,41 +66,8 @@ module.exports = {
             
             
             
-            /*section.about*/
-            section.about {background: rgb(255, 255, 255); padding: 80px 0;}
-            section.about ul {margin: 30px auto; width: 1400px; border-bottom: 1px solid #ddd; overflow: hidden; }
-            section.about ul li {float:left; width: 33.3333%; }/* 3개씩 띄우기 */
-            section.about ul li a{display: block; width: 100%; height: 100%;}
-            section.about ul li a p.img {width: 100%; overflow: hidden; height: 369px; } /* px조절 */   
-            section.about ul li a p.img img {width: 100%; height: 100%; transition: all .8s;}
-            section.about ul li a:hover p.img img,section.about ul li a:focus p.img img {transform: scale(1.2); transition: all 1s;}
-            section.about ul li a .text {padding: 30px;}
-            section.about ul li a .text h3 {font-size: 20px; margin-bottom: 10px;}
-            section.about ul li a .text p {font-size: 16px; margin-bottom: 10px;}
-            section.about ul li a .text p.more {text-transform: uppercase; font-weight: bold; padding-left: 40px; position: relative;}
-            section.about ul li a .text p.more:before {content: '\f178'; font-family:FontAwesome; font-size: 15px; width: 30px; height: 30px; line-height: 30px; background:#ff8342; position: absolute; left: 0;display: block;  border-radius: 50%;}
             
             
-            /*section.sns*/
-            section.sns {margin-bottom: 60px;}
-            section.sns ul {width: 1400px; margin: 50px auto; overflow: hidden;}
-            section.sns ul li {float: left; width: 32%; margin-right: 1%;}
-            section.sns ul li:last-child {margin-right: 0;}
-            section.sns ul li a {display: block; width: 100%; height: 100%;}
-            section.sns ul li a p.img {overflow: hidden; position: relative;}
-            section.sns ul li a p.img:before {content: ''; width: 0%; height: 100%; position: absolute; left: 0; top:0; background: rgba(255, 131, 66, 0.9); transition: all 0.5s;}
-            section.sns ul li a p.img img {width: 100%;}
-            
-            section.sns ul li a:hover p.img:before,section.sns ul li a:focus p.img:before {width: 100%; transition: all 0.6s;}
-            section.sns ul li a p.img:after {content: 'move '; position: absolute; left:50%; top:50%; transform: translate(-50%,-50%); font-family: 'Exo 2', sans-serif; font-size: 15px; color: #fff; border: 1px solid #fff; border-radius: 40px; padding: 5px 30px; opacity: 0; transition: all 0.5s;}
-            
-            
-            section.sns ul li a:hover p.img:after,section.sns ul li a:focus p.img:after {opacity: 1; transition: all 0.5s;}
-            section.sns ul li a .bottom {width: 100%; padding: 20px 0 20px 30px; box-sizing: border-box;}
-            section.sns ul li a .bottom p {font-size: 18px; font-weight: bold;}
-            section.sns ul li a .bottom p.color {color: #ff8342; font-size: 15px; font-weight: normal;}
-            section.sns ul li a .bottom p.time {color: #999; font-size: 15px; font-weight: normal; padding-left: 20px; margin-top: 30px; position: relative;}
-            section.sns ul li a .bottom p.time:before {content:' \f017'; font-family: FontAwesome; font-size: 15px; line-height: 30px; position: absolute; left: 0; top:-3px;}
             
             /*footer*/
             footer {clear: both; border-top: 1px solid #999; padding: 30px 0 50px;}

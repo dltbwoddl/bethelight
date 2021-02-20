@@ -3,8 +3,7 @@ module.exports = {
     sendfootercode : function (){
         var main = maincss.allcss()
         var font = maincss.fontcss()
-        return(`
-        <style>
+        return(`<style>
         ${main}
         ${font}
             <footer>
